@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         "elsie": 'Elsie, serif',
-        "merri": 'Merriweather, serif',
+        "lato": 'Lato, serif',
       }
     },
     
