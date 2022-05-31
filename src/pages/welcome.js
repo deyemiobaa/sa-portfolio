@@ -8,13 +8,13 @@ export default function Welcome() {
         <p>
           I’m a full-stack software developer based in Lagos, NG. <br />
           I’m passionate about education, and one of my life-long goals is to travel around the world teaching.<br />
-          I spend a lot of time perfecting my tech &amp; interpersonal skills to give out the best and create a great experience for whoever I work/meet with. I have an excellent eye for design and I pay very keen attention to details.
-          <p className="mt-8">You can read about my story <span className="underline decoration-teal-500 decoration-4">here</span>, or check out my most recent <span className="underline decoration-teal-500 decoration-4">projects</span>.</p>
+          I spend a lot of time perfecting my tech &amp; interpersonal skills to give out the best and create a great experience for whoever I work/meet with. I have an excellent eye for design and I pay very keen attention to details.<br />
+          <span className="mt-8">You can read about my story <span className="underline decoration-teal-500 decoration-4">here</span>, or check out my most recent <span className="underline decoration-teal-500 decoration-4">projects</span>.</span>
         </p>
       </div>
-      <p className="text-big absolute z-1 bottom-32 right-0 opacity-5 font-black font-elsie">
+      <div className="text-big absolute z-1 bottom-32 right-0 opacity-5 font-black font-elsie">
         Hello
-      </p>
+      </div>
     </div>
   );
 }

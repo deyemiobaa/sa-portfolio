@@ -9,23 +9,48 @@ import { BiChat } from 'react-icons/bi';
 export default function PageNav() {
   return (
     <div className="page-nav text-cyan-100 text-lg flex flex-col w-max h-screen justify-center px-6 gap-12 border-r-2 border-y-0 border-l-0 border-r-teal-500">
-      <NavLink to={'/'} className="page-nav__item flex flex-col justify-center items-center gap-2">
+      <NavLink to={'/'}
+        className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
+        style={({ isActive }) =>
+          isActive ? { backgroundColor: "rgb(248,250,252, 0.05)"} : undefined
+        }
+      >
         <RiHome2Line className="text-teal-500 text-4xl" />
         {/* <span>Home</span> */}
       </NavLink>
-      <NavLink to={'/'} className="page-nav__item flex flex-col justify-center items-center gap-2">
+      <NavLink to={'/'}
+        className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
+        style={({ isActive }) =>
+          isActive ? { backgroundColor: "rgb(248,250,252, 0.05)"} : undefined
+        }
+      >
         <BsPerson className="text-teal-500 text-4xl" />
         {/* <span>About</span> */}
       </NavLink>
-      <NavLink to={'/'} className="page-nav__item flex flex-col justify-center items-center gap-2">
+      <NavLink to={'/'}
+        className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
+        style={({ isActive }) =>
+          isActive ? { backgroundColor: "rgb(248,250,252, 0.05)"} : undefined
+        }
+      >
         <FiGrid className="text-teal-500 text-4xl" />
         {/* <span>Work</span> */}
       </NavLink>
-      <NavLink to={'/'} className="page-nav__item flex flex-col justify-center items-center gap-2">
+      <NavLink to={'/'}
+        className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
+        style={({ isActive }) =>
+          isActive ? { backgroundColor: "rgb(248,250,252, 0.05)"} : undefined
+        }
+      >
         <HiOutlinePencilAlt className="text-teal-500 text-4xl" />
         {/* <span>Writings</span> */}
       </NavLink>
-      <NavLink to={'/'} className="page-nav__item flex flex-col justify-center items-center gap-2">
+      <NavLink to={'/'}
+        className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
+        style={({ isActive }) =>
+          isActive ? { backgroundColor: "rgb(248,250,252, 0.05)"} : undefined
+        }
+      >
         <BiChat className="text-teal-500 text-4xl" />
         {/* <span>Contact</span> */}
       </NavLink>
