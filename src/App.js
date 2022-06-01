@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import PageNav from "./components/page-nav";
 import SocialNav from "./components/social-nav";
-import MobileNav from "./components/mobile-nav";
+import MobileNav from "./components/mobile-nav/nav";
 import Welcome from "./pages/welcome";
+import Contact from "./pages/contact";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <MobileNav />
       <Routes>
         <Route path="/" element={<Welcome />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <SocialNav />
     </div>

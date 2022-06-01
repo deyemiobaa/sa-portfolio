@@ -13,7 +13,10 @@ module.exports = {
       fontFamily: {
         "elsie": 'Elsie, serif',
         "lato": 'Lato, serif',
-      }
+      },
+      animation: {
+        'spin-once': 'spin 1s linear',
+      },
     },
     
   },
