@@ -11,7 +11,7 @@ export default function MobileNav() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="mobile-nav absolute z-11 h-screen w-3/4 md:w-3/5 lg:hidden font-lato">
+    <div className="mobile-nav absolute z-20 h-screen w-3/4 md:w-3/5 lg:hidden font-lato">
       {!isOpen && <Toggle toggle={() => toggleNav()} element={<CgMenu className="text-2xl text-teal-500 font-bold" />} />}
       {isOpen && <Toggle toggle={() => toggleNav()} element={<CgClose className="text-2xl text-neutral-900 font-bold animate-spin-once" />} />}
       <Navigation
