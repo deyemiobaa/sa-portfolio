@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import PageNav from "./components/page-nav";
 import SocialNav from "./components/social-nav";
-import MobileNav from "./components/mobile-nav";
+import MobileNav from "./components/mobile-nav/nav";
 import Welcome from "./pages/welcome";
 
 export default function App() {
