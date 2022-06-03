@@ -12,7 +12,7 @@ export default function Project({ title, description, image, technologies, link 
         <div>Built With:</div>
         <div className="flex gap-6 justify-center flex-wrap p-4">
           {technologies.map(tech =>
-            <img src={tech.image} style={{ "height": "36px", "width": "36px" }} alt={tech.name} />)
+            <img src={tech.image} style={{ "height": "36px", "width": "36px" }} alt={tech.name} key={tech.name} />)
           }
         </div>
       </div>
