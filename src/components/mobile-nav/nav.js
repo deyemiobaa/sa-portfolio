@@ -20,7 +20,7 @@ export default function MobileNav() {
       <Navigation
         handleClickProp={() => toggleNav()}
         style={isOpen ? { "width": "100%", "opacity": "1" } : { "width": "0%", "opacity": "0" }}
-        itemStyle={isOpen ? { "opacity": "1", "height": "100%" } : { "opacity": "0", "height": "0%" }}
+        itemStyle={isOpen ? { "opacity": "1", "height": "100%", "display": "flex" } : { "opacity": "0", "height": "0%", "display": "none" }}
       />
     </div>
   )
