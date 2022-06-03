@@ -30,7 +30,7 @@ export default function PageNav() {
     }
   ]
   return (
-    <div className="page-nav hidden lg:flex flex-col w-max h-screen justify-center px-4 gap-6 text-teal-500 text-xl">
+    <div className="page-nav hidden lg:flex flex-col w-max h-screen justify-center px-4 gap-6 text-teal-500 text-xl fixed left-0 bottom-0 top-0 z-20">
       {elements.map((element, index) => 
         <NavLink to={element.path}
           className="page-nav__item flex flex-col justify-center items-center rounded-full p-4"
