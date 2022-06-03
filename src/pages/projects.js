@@ -14,7 +14,7 @@ export default function Projects() {
 
   return (
     <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl mt-28 md:mt-44">
-      <div className="w-4/4 md:w-3/4 mx-auto mb-10">
+      <div className="w-4/4 md:w-3/4 mx-auto mb-10 static z-10">
         <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-amber-500 font-bold">Projects . Open-Source</h1>
         <p className="font-bold">
           Building is fun!
