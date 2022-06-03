@@ -8,7 +8,7 @@ import Projects from "./pages/projects";
 
 export default function App() {
   return (
-    <div className="w-full h-screen bg-gray-900 relative lg:grid lg:grid-cols-[auto_1fr_auto] items-center">
+    <div className="w-full min-h-screen bg-gray-900 relative grid lg:grid-cols-[auto_1fr_auto] items-center font-lato text-slate-50">
       <PageNav />
       <MobileNav />
       <Routes>

@@ -7,7 +7,7 @@ export default function MenuItem({ link, handleClickProp }) {
   return (
     <NavLink
       to={`${link === 'Home' ? '/' : link.toLowerCase()}`}
-      className="mobile-nav__item text-neutral-900 font-bold py-2 mb-2 tracking-wide text-xl font-lato"
+      className="mobile-nav__item text-neutral-900 font-bold py-2 mb-2 tracking-wide text-xl"
       key={link}
       onClick={handleClickProp}
     >
