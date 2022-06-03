@@ -28,7 +28,7 @@ export default function Projects() {
           )}
         </div>
       </div>
-      <div className="text-big fixed z-0 bottom-32 right-0 opacity-[0.04] font-black font-elsie hidden lg:block">
+      <div className="text-big fixed z-1 bottom-32 -right-10 opacity-[0.04] font-black font-elsie hidden lg:block">
         Build
       </div>
     </div>
