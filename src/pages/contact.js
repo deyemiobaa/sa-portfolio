@@ -1,10 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import SocialIcons from "../components/icons";
 
 export default function Contact() {
-  useEffect(() => {
-    document.title = "Sodiq | Contact me";
-  }, []);
   return (
     <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl h-full flex items-center flex-col justify-center">
       <div className="w-4/4 md:w-3/4 static z-10">

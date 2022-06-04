@@ -1,4 +1,6 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import useTitle from "./components/useTitle";
 import PageNav from "./components/page-nav";
 import SocialNav from "./components/social-nav";
 import MobileNav from "./components/mobile-nav/nav";
@@ -7,6 +9,13 @@ import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 
 export default function App() {
+  const location = useLocation()
+  const state = useTitle(location.pathname)
+  document.title = state
+  
+  useEffect(() => {
+  }, [state])
+
   return (
     <div className="w-full min-h-screen bg-gray-900 relative grid lg:grid-cols-[auto_1fr_auto] items-center font-lato text-slate-50">
       <PageNav />

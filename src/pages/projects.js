@@ -4,7 +4,6 @@ import projects from "../assets/data/data";
 
 export default function Projects() {
   useEffect(() => {
-    document.title = "Sodiq | Projects";
     document.querySelector('.button').addEventListener('click', () => { 
       document.getElementById('projects-section').scrollIntoView({
         behavior: 'smooth'
