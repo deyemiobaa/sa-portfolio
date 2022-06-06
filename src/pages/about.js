@@ -1,19 +1,26 @@
 import React from "react";
+import SocialIcons from "../components/icons";
 
 export default function About() {
   return (
-    <div className="px-6 lg:px-32 relative h-screen flex flex-col justify-center overflow-auto lg:justify-start lg:overflow-hidden font-merri leading-7 lg:leading-10 tracking-wide text-sm md:text-lg lg:text-2xl">
-      <div className="w-4/4 xl:w-3/4">
-        <h1 className="mb-4 lg:mt-40"><span className="animate-pulse pr-4 text-4xl">👋🏽</span>Hi, my name is <span className="font-bold text-lg md:text-2xl lg:text-4xl">Sodiq</span>.</h1>
-        <p>
-          I’m a full-stack software developer based in Lagos, NG. <br />
-          I’m passionate about education, and one of my life-long goals is to travel around the world teaching.<br />
-          I spend a lot of time perfecting my tech &amp; interpersonal skills to give out the best and create a great experience for whoever I work/meet with. I have an excellent eye for design and I pay very keen attention to details.<br />
-          <span className="mt-8">You can read about my story <span className="underline decoration-teal-500 decoration-4">here</span>, or check out my most recent <span className="underline decoration-teal-500 decoration-4">projects</span>.</span>
+    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl mt-28 md:mt-44 flex flex-col items-center">
+      <div className="w-4/4 md:w-3/4 static z-10 mx-auto">
+        <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-amber-500 font-bold">Collaborate . Connect</h1>
+        <figure className="opacity-[.9] text-base">
+          <blockquote cite="https://deyemiobaa.vercel.app">
+            <p className="border-l-4 pl-6 border-neutral-700 mb-4">There are no strangers here; Only friends you haven’t yet met.</p>
+          </blockquote>
+          <figcaption>—<cite> William Butler Yeats</cite></figcaption>
+        </figure>
+        <p className="mt-8 font-light">Do you have a project idea you’d like me to jump on, questions you’d like me to answer, looking to make a new connection, or do you want to hire me?
         </p>
+        <p className="font-light">You can reach out to me via my social links, or send me an <a className="underline decoration-teal-500 decoration-4 font-normal" href="mailto:sodiqaderibigbe90@gmail.com">email</a>. I'd love to hear from you.</p>
       </div>
-      <div className="text-big absolute z-1 bottom-32 right-0 opacity-[0.04] font-black font-elsie hidden lg:block">
-        Meet Me
+      <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
+        <SocialIcons />
+      </div>
+      <div className="text-big fixed z-1 bottom-32 right-0 opacity-[0.04] font-black font-elsie hidden lg:block">
+        Link
       </div>
     </div>
   );

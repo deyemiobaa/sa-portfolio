@@ -7,6 +7,7 @@ import MobileNav from "./components/mobile-nav/nav";
 import Welcome from "./pages/welcome";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
+import About from "./pages/about";
 
 export default function App() {
   const location = useLocation()
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <SocialNav />
     </div>
