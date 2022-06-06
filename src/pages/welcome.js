@@ -3,7 +3,7 @@ import SocialIcons from "../components/icons";
 
 export default function Welcome() {
   return (
-    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl mt-28 md:mt-44 flex flex-col items-center">
+    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl mt-28 md:mt-36 flex flex-col items-center">
       <div className="w-4/4 md:w-3/4 mx-auto static z-10">
         <h1 className="mb-4"><span className="animate-pulse pr-4 text-4xl">👋🏽</span>Hi, my name is <span className="font-bold text-lg md:text-2xl">Sodiq</span>.</h1>
         <p className="lg:pl-4 font-light">
