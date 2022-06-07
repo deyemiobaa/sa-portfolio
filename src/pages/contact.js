@@ -3,7 +3,7 @@ import SocialIcons from "../components/icons";
 
 export default function Contact() {
   return (
-    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide text-base md:text-xl mt-28 md:mt-36 flex flex-col items-center">
+    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide  mt-28 md:mt-36 flex flex-col items-center">
       <div className="w-4/4 md:w-3/4 static z-10 mx-auto">
         <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-amber-500 font-bold">Collaborate . Connect</h1>
         <figure className="opacity-[.9] text-base">
