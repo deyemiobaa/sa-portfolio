@@ -9,8 +9,8 @@ export default function About() {
     <div className="relative px-6 leading-7 lg:leading-10 tracking-wide  mt-28 md:mt-36 flex flex-col items-center pb-10">
       <div className="w-4/4 md:w-3/4 static z-10 mx-auto">
         <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-amber-500 font-bold">Genesis . Journey</h1>
-        <div className=" flex flex-col-reverse md:grid md:grid-cols-4 gap-12">
-          <div className=" font-light md:col-span-3">My first memory of computers is from when I was a young boy. I used to play a lot of games, particularly chess. <br />
+        <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-12">
+          <div className="font-light md:col-span-3">My first memory of computers is from when I was a young boy. I used to play a lot of games, particularly chess. <br />
             Soon I went from generating emails and Facebook profiles for individuals in cybercafés to being contacted for the slightest difficulty my parents faced on their devices. It seemed rather apparent that I would later do something in the computer industry.<br />
             Over the years, I've taken a detour, fixating on medicine, business, and fashion before landing back in the tech world. <br />
 
