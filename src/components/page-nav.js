@@ -34,9 +34,6 @@ export default function PageNav() {
       {elements.map((element, index) =>
         <NavLink to={element.path}
           className="page-nav__item flex flex-col justify-center items-center rounded-full p-4 hover:bg-gray-900 hover:scale-[1.1] hover:transition-transform hover:ease-in-out hover:duration-[300ms]"
-          style={({ isActive }) =>
-            isActive ? { backgroundColor: "rgb(248,250,252, 0.05)", borderRight: "2px solid #14b8a6", color: "#14b8a6" } : undefined
-          }
           key={index}
         >
           {element.icon}
