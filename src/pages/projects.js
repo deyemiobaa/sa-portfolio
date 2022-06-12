@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Project from "../components/project";
-import projects from "../assets/data/data";
+import {projects} from "../assets/data/data";
 
 export default function Projects() {
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide  mt-28 md:mt-36">
+    <div className="relative px-6 leading-7 lg:leading-10 tracking-wide mt-28 md:mt-36">
       <div className="w-4/4 md:w-3/4 mx-auto mb-10 static z-10">
         <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-amber-500 font-bold">Projects . Open-Source</h1>
         <p className="font-bold">
@@ -27,7 +27,7 @@ export default function Projects() {
           )}
         </div>
       </div>
-      <div className="text-big fixed z-1 bottom-32 -right-10 opacity-[0.04] font-black font-elsie hidden lg:block">
+      <div className="text-big fixed z-1 bottom-32 -right-10 opacity-[0.02] font-black font-elsie hidden lg:block">
         Build
       </div>
     </div>
