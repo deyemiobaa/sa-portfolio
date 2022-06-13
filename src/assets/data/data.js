@@ -92,3 +92,54 @@ export const skills = [
     text: "A dedicated and hardworking individual with a strong sense of responsibility.",
   }
 ]
+
+export const techSkills = [
+  {
+    id: uuidv4(),
+    skill: 'JavaScript (ES6)',
+  },
+  {
+    id: uuidv4(),
+    skill: 'React.js/Next.js',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Redux',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Tailwind CSS',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Jest/Mocha',
+  },
+  {
+    id: uuidv4(),
+    skill: 'MySQL/PostgreSQL',
+  },
+  {
+    id: uuidv4(),
+    skill: 'TDD',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Agile Methodologies',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Git/GitHub',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Netlify/Heroku/Vercel',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Dev Tools',
+  },
+  {
+    id: uuidv4(),
+    skill: 'Mobile/Responsive Design',
+  }
+]
