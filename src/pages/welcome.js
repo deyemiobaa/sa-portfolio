@@ -11,7 +11,7 @@ export default function Welcome() {
           <h1 className="mb-4 font-bold text-4xl md:text-8xl">Hi,<br /> I'm Sodiq,<br />Software developer.</h1>
           <p>I'm a Front-end Developer, ready to build with your team<span className="pl-4 text-2xl">🚀</span>.</p>
           <button type="button" className="border px-8 mt-4 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Hire me</button>
-          <div className="text-big absolute z-1 left-0 bottom-20 opacity-[0.02] font-black font-elsie hidden lg:block">
+          <div className="text-big absolute z-1 -right-40 bottom-20 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
             Hello
           </div>
         </div>

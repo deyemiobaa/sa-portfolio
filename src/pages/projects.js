@@ -21,9 +21,9 @@ export default function Projects() {
           </p>
           <p className="mt-8 font-light">Building projects is something I really enjoy doing. Apart from the fresh experiences I gain with each project, the thrill of seeing a project through from beginning to end and having it work as intended makes the process/hurdles interesting.
           </p>
-          <p className="font-light"><span className="button underline decoration-teal-500 decoration-4 font-normal cursor-pointer">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
+          <p className="font-light"><span className="button underline decoration-teal-500 decoration-4 font-normal cursor-pointer sticky z-[11]">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
           </p>
-          <div className="text-big absolute z-1 bottom-44 left-0 opacity-[0.02] font-black font-elsie hidden lg:block">
+          <div className="text-big absolute z-1 bottom-44 -right-40 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
             Build
           </div>
         </div>
