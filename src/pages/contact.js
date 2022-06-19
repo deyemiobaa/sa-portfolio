@@ -1,5 +1,6 @@
 import React from "react";
 import SocialIcons from "../components/icons";
+import Form from "../components/form";
 
 export default function Contact() {
   return (
@@ -14,13 +15,11 @@ export default function Contact() {
         </figure>
         <p className="mt-8 font-light">Do you have a project idea you’d like me to jump on, questions you’d like me to answer, looking to make a new connection, or do you want to hire me?
         </p>
-        <p className="font-light">You can reach out to me via my social links, or send me an <a className="underline decoration-teal-500 decoration-4 font-normal" href="mailto:sodiqaderibigbe90@gmail.com">email</a>. I'd love to hear from you.</p>
+        <p className="font-light">You can reach out to me via my social links, or send me a message. I'd love to hear from you.</p>
+        <Form />
       </div>
       <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
         <SocialIcons />
-      </div>
-      <div className="text-big fixed z-1 bottom-20 right-0 opacity-[0.02] font-black font-elsie hidden lg:block">
-        Link
       </div>
     </div>
   );
