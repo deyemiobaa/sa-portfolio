@@ -19,7 +19,7 @@ export default function Contact() {
       <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
         <SocialIcons />
       </div>
-      <div className="text-big fixed z-1 bottom-32 right-0 opacity-[0.04] font-black font-elsie hidden lg:block">
+      <div className="text-big fixed z-1 bottom-20 right-0 opacity-[0.02] font-black font-elsie hidden lg:block">
         Link
       </div>
     </div>

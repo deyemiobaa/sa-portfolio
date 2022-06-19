@@ -15,7 +15,7 @@ export default function MobileNav() {
       className="mobile-nav fixed inset-0 z-20 w-3/4 md:w-3/5 lg:hidden transition-all ease-in-out duration-1000"
       style={isOpen ? undefined : { "width": "0" }}
     >
-      {!isOpen && <Toggle style={{ "backgroundColor": "#0f172a" }} toggle={() => toggleNav()} element={<CgMenu className="text-2xl text-teal-500 font-bold" />} />}
+      {!isOpen && <Toggle style={{ "backgroundColor": "#08070b" }} toggle={() => toggleNav()} element={<CgMenu className="text-2xl text-teal-500 font-bold" />} />}
       {isOpen && <Toggle toggle={() => toggleNav()} element={<CgClose className="text-2xl text-neutral-900 font-bold" />} />}
       <Navigation
         handleClickProp={() => toggleNav()}
