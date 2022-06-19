@@ -23,9 +23,6 @@ export default function Projects() {
           </p>
           <p className="font-light"><span className="button underline decoration-teal-500 decoration-4 font-normal cursor-pointer sticky z-[11]">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
           </p>
-          <div className="text-big absolute z-1 bottom-44 -right-40 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
-            Build
-          </div>
         </div>
         <div id="projects-section" className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
           {projects.map(project =>

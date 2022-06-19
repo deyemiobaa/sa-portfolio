@@ -32,9 +32,6 @@ export default function About() {
       <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
         <SocialIcons />
       </div>
-      <div className="text-big fixed z-1 bottom-32 right-0 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
-        About
-      </div>
     </div>
   );
 }
