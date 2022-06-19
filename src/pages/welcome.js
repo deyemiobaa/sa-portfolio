@@ -1,9 +1,11 @@
 import React from "react";
 import SocialIcons from "../components/icons";
+import Form from "../components/form";
 import { skills, techSkills } from "../assets/data/data";
 import { Link } from "react-router-dom";
 
 export default function Welcome() {
+  
   return (
     <div className="px-6 leading-7 lg:leading-10 tracking-wide  font-light">
       <div className="w-4/4 md:w-3/4 mx-auto mb-10 static z-10">
@@ -40,7 +42,7 @@ export default function Welcome() {
           <br />
           You may learn more about my background <Link className="underline decoration-teal-500 decoration-4 font-normal" to="/about">here</Link> or look at some of my most recent <Link className="underline decoration-teal-500 decoration-4 font-normal" to="/projects">projects</Link>.
         </p>
-
+        <Form />
       </div>
       <div className="lg:hidden flex justify-between w-3/4 self-center my-16">
         <SocialIcons />
