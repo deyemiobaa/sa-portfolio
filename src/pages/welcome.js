@@ -12,11 +12,11 @@ export default function Welcome() {
         <div className="h-screen flex flex-col justify-center">
           <h1 className="mb-4 font-bold text-4xl md:text-8xl">Hi,<br /> I'm Sodiq,<br />Software developer.</h1>
           <p>I'm a Front-end Developer, ready to build with your team<span className="pl-4 text-2xl">🚀</span>.</p>
-          <Link to="/contact" className="border px-8 mt-4 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
+          <Link to="/contact" className="border px-8 mt-6 py-1 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
         </div>
         <div>
           <h3 className="text-xl font-normal">If you need:</h3>
-          <ul className="md:w-3/4 my-4">
+          <ul className="md:w-3/4 my-2">
             {skills.map(skill =>
               <li key={skill.id} className="flex items-center gap-4 py-4 pr-2">
                 <div className="text-xl text-teal-500 bg-[#0d1117] p-4 rounded-full">{skill.icon}</div>
@@ -25,7 +25,7 @@ export default function Welcome() {
             )}
           </ul>
           <h3 className="text-xl font-normal">You're in the right place.</h3>
-          <div className="mb-4 mt-6">
+          <div className="mb-4 mt-10">
             <p>Here is a current list of the technologies &amp; tools I use regularly.</p>
             <ul className="grid grid-cols-2 gap-x-4 md:w-3/5 text-[15px] list-[square] ml-4 mb-8 mt-6">
               {techSkills.map(skill =>
@@ -37,11 +37,11 @@ export default function Welcome() {
         <p className="md:w-3/4">
           I spend a lot of time honing my technical and interpersonal abilities to provide the most satisfactory service and create a positive experience for everyone I engage.
           <br />
-          You may learn more about my background <Link className="underline decoration-teal-500 decoration-4 font-normal" to="/about">here</Link> or look at some of my most recent <Link className="underline decoration-teal-500 decoration-4 font-normal" to="/projects">projects</Link>.
+          You may learn more about my background <Link className="border-b-2 pb-1 border-teal-500 font-normal" to="/about">here</Link> or look at some of my most recent <Link className="border-b-2 pb-1 border-teal-500 font-normal" to="/projects">projects</Link>.
         </p>
         <Form />
       </div>
-      <div className="lg:hidden flex justify-between w-3/4 self-center my-16">
+      <div className="lg:hidden flex justify-between w-3/4 mx-auto my-16">
         <SocialIcons />
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function Form() {
     return <p className="mt-10 font-bold">Thanks for your message! I'll get back to you within 24 hours.</p>;
   }
   return (
-    <div className="w-full h-screen flex flex-col justify-center relative">
+    <div className="w-full my-24 lg:my-0 lg:h-screen flex flex-col justify-center relative">
       <p className="font-bold mb-6">Send me a message and I'll get back to you within 24 hours</p>
       <form onSubmit={handleSubmit} className="md:w-3/5">
         <label className="block font-light">
@@ -37,7 +37,7 @@ export default function Form() {
             errors={state.errors}
           />
         </label>
-        <button type="submit" disabled={state.submitting} className="border px-8 mt-4 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Send message</button>
+        <button type="submit" disabled={state.submitting} className="border px-8 mt-6 py-1 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Send message</button>
       </form>
       <div className="text-big absolute z-1 -right-10 bottom-64 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
         @

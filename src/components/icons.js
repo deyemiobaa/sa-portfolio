@@ -1,6 +1,6 @@
 import React from "react";
 import { FiGithub, FiTwitter, FiMail, FiLinkedin } from "react-icons/fi";
-import { SiLichess } from "react-icons/si";
+// import { SiLichess } from "react-icons/si";
 
 export default function SocialIcons() {
   return (
@@ -37,14 +37,14 @@ export default function SocialIcons() {
       >
         <FiTwitter className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a>
-      <a
+      {/* <a
         href="https://lichess.org/@/sodiq90"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="My Lichess profile"
       >
         <SiLichess className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
-      </a>
+      </a> */}
     </>
   )
 }

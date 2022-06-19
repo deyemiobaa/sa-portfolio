@@ -18,7 +18,7 @@ export default function Contact() {
         <p className="font-light">You can reach out to me via my social links, or send me a message. I'd love to hear from you.</p>
         <Form />
       </div>
-      <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
+      <div className="lg:hidden flex justify-between w-3/4 mx-auto my-16">
         <SocialIcons />
       </div>
     </div>
