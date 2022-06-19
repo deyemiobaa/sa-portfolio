@@ -9,13 +9,10 @@ export default function Welcome() {
   return (
     <div className="px-6 leading-7 lg:leading-10 tracking-wide  font-light">
       <div className="w-4/4 md:w-3/4 mx-auto mb-10 static z-10">
-        <div className="h-screen flex flex-col justify-center relative">
+        <div className="h-screen flex flex-col justify-center">
           <h1 className="mb-4 font-bold text-4xl md:text-8xl">Hi,<br /> I'm Sodiq,<br />Software developer.</h1>
           <p>I'm a Front-end Developer, ready to build with your team<span className="pl-4 text-2xl">🚀</span>.</p>
-          <button type="button" className="border px-8 mt-4 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Hire me</button>
-          <div className="text-big absolute z-1 -right-40 bottom-20 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
-            Hello
-          </div>
+          <Link to="/contact" className="border px-8 mt-4 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
         </div>
         <div>
           <h3 className="text-xl font-normal">If you need:</h3>
