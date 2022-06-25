@@ -8,29 +8,29 @@ export default function Form() {
   }
   return (
     <div className="w-full my-24 lg:my-0 lg:h-screen flex flex-col justify-center relative">
-      <p className="font-bold mb-6">Send me a message and I'll get back to you within 24 hours</p>
+      <p className="mb-6 text-white">Send me a message and I'll get back to you within 24 hours</p>
       <form onSubmit={handleSubmit} className="md:w-3/5">
-        <label className="block font-light">
+        <label className="block ">
           <span >Full name</span>
-          <input name="name" type="text" className="mt-1 block w-full rounded-md bg-[#1d1d1d]/[0.4] border-transparent focus:ring-1 outline-0 py-2 pl-6" placeholder="" required />
+          <input name="name" type="text" className="mt-1 block w-full rounded-md bg-[#616971]/[0.15] focus:border-b focus:border-teal-500 focus:ring-0 outline-0 py-1 pl-6" placeholder="" required />
           <ValidationError
             prefix="Name"
             field="name"
             errors={state.errors}
           />
         </label>
-        <label className="block font-light">
+        <label className="block ">
           <span >Email address</span>
-          <input name="email" type="text" className="mt-1 block w-full rounded-md bg-[#1d1d1d]/[0.4] border-transparent focus:ring-1 outline-0 py-2 pl-6" placeholder="" required />
+          <input name="email" type="text" className="mt-1 block w-full rounded-md bg-[#616971]/[0.15] focus:border-b focus:border-teal-500 focus:ring-0 outline-0 py-1 pl-6" placeholder="" required />
           <ValidationError
             prefix="Email"
             field="email"
             errors={state.errors}
           />
         </label>
-        <label className="block font-light">
+        <label className="block ">
           <span >Message</span>
-          <textarea name="message" className="mt-1 block w-full rounded-md bg-[#1d1d1d]/[0.4] border-transparent focus:ring-1 outline-0 pt-4 pl-6" rows="3" required></textarea>
+          <textarea name="message" className="mt-1 block w-full rounded-md bg-[#616971]/[0.15] focus:border-b focus:border-teal-500 focus:ring-0 outline-0 pt-1 pl-6" rows="3" required></textarea>
           <ValidationError
             prefix="Message"
             field="message"
