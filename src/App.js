@@ -18,7 +18,7 @@ export default function App() {
   }, [state])
 
   return (
-    <div className="w-full min-h-screen bg-[#08070b] relative grid lg:grid-cols-[auto_1fr_auto] font-lato text-slate-50 text-base md:text-lg">
+    <div className="w-full min-h-screen bg-[#08070b]/[0.97] relative grid font-lato text-[#e4f0fa8c] text-base md:text-lg">
       <PageNav />
       <MobileNav />
       <Routes>

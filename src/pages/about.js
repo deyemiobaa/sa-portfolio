@@ -10,12 +10,15 @@ export default function About() {
       <div className="w-4/4 md:w-3/4 static z-10 mx-auto">
         <h1 className="mb-10 text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-amber-500 font-bold">Genesis . Journey</h1>
         <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-12">
-          <div className="font-light md:col-span-3">My first memory of computers is from when I was a young boy. I used to play a lot of games, particularly chess. <br />
+          <div className=" md:col-span-3">My first memory of computers is from when I was a young boy. I used to play a lot of games, particularly chess. <br />
             Soon I went from generating emails and Facebook profiles for individuals in cybercafés to being contacted for the slightest difficulty my parents faced on their devices. It seemed rather apparent that I would later do something in the computer industry.<br />
+
+            <h3 className="text-xl lg:text-2xl text-white my-4">Starting out;</h3>
             Over the years, I've taken a detour, fixating on medicine, business, and fashion before landing back in the tech world. <br />
 
             As a digital consultant at an advertising agency, I got my first tech experience. I had no experience writing codes, but I worked with developers and designers to troubleshoot website issues and create new landing pages. After two years, I gained a wealth of knowledge about business and how developers bring concepts to life.<br />
 
+            <h3 className="text-xl lg:text-2xl text-white my-4">Circling back;</h3>
             I decided to learn to code in Python, focusing on data science and analytics. It was an eye-opening experience, but I quickly decided to switch gears and learn web development instead.<br />
 
             After a few years, I've had the chance to build unique projects with incredible developers from countries across Africa and Europe. I'm currently concentrating on React web development and would love to work with Edu-tech or customer-focused companies.<br />
@@ -23,7 +26,7 @@ export default function About() {
             When I'm not behind a computer screen, you can find me at the gym or playing basketball.
             <div className="grid grid-cols-2 gap-6 justify-items-center pt-6 mb-6">
               <img src={gym} alt="gym" className="rounded-lg  w-full" />
-              <img src={bball} alt="basketball" className="rounded-lg  w-full"/>
+              <img src={bball} alt="basketball" className="rounded-lg  w-full" />
             </div>
           </div>
           <img src={myphoto} alt="Headshot" className="w-36 h-auto rounded-full md:rounded-2xl md:w-auto" />

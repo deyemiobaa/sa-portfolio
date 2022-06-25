@@ -6,7 +6,7 @@ export default function Project({ title, description, image, technologies, link 
       <img className="w-max-full h-auto object-cover" src={image} alt={title} />
       <div>
         <div className="text-2xl p-4 mt-2">{title}</div>
-        <div className="text-left px-4 font-light mb-4">
+        <div className="text-left px-4  mb-4">
           {description}
         </div>
         <div>Built With:</div>
