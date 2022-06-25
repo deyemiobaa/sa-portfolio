@@ -5,17 +5,17 @@ import { skills, techSkills } from "../assets/data/data";
 import { Link } from "react-router-dom";
 
 export default function Welcome() {
-  
+
   return (
-    <div className="px-6 leading-7 lg:leading-10 tracking-wide  font-light">
-      <div className="w-4/4 md:w-3/4 mx-auto mb-10 static z-10">
+    <div className="px-6 leading-7 lg:leading-10 tracking-wide  ">
+      <div className="max-w-3xl mx-auto mb-10 static z-10">
         <div className="h-screen flex flex-col justify-center">
-          <h1 className="mb-4 font-bold text-4xl md:text-8xl">Hi,<br /> I'm Sodiq,<br />Software developer.</h1>
-          <p>I'm a Front-end Developer, ready to build with your team<span className="pl-4 text-2xl">🚀</span>.</p>
+          <h1 className="mb-4 font-bold text-4xl md:text-8xl text-white">Hi,<br /> I'm Sodiq,<br />Web developer.</h1>
+          <p>I'm a Front-end Developer, focused on building accessible and performant apps<span className="pl-2 text-2xl text-white">👨🏽‍💻</span>.</p>
           <Link to="/contact" className="border px-8 mt-6 py-1 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
         </div>
         <div>
-          <h3 className="text-xl font-normal">If you need:</h3>
+          <h2 className="text-xl text-white">Core focus:</h2>
           <ul className="md:w-3/4 my-2">
             {skills.map(skill =>
               <li key={skill.id} className="flex items-center gap-4 py-4 pr-2">
@@ -24,9 +24,8 @@ export default function Welcome() {
               </li>
             )}
           </ul>
-          <h3 className="text-xl font-normal">You're in the right place.</h3>
           <div className="mb-4 mt-10">
-            <p>Here is a current list of the technologies &amp; tools I use regularly.</p>
+            <p className="text-white">Technologies, tools, &amp; methods I use regularly:</p>
             <ul className="grid grid-cols-2 gap-x-4 md:w-3/5 text-[15px] list-[square] ml-4 mb-8 mt-6">
               {techSkills.map(skill =>
                 <li key={skill.id} className="pl-px">{skill.skill}</li>
@@ -34,11 +33,14 @@ export default function Welcome() {
             </ul>
           </div>
         </div>
-        <p className="md:w-3/4">
-          I spend a lot of time honing my technical and interpersonal abilities to provide the most satisfactory service and create a positive experience for everyone I engage.
-          <br />
-          You may learn more about my background <Link className="border-b-2 pb-1 border-teal-500 font-normal" to="/about">here</Link> or look at some of my most recent <Link className="border-b-2 pb-1 border-teal-500 font-normal" to="/projects">projects</Link>.
+        <p>
+          You may learn more about my background <Link className="border-b-2 text-white pb-1 border-teal-500" to="/about">here</Link><br/> or look at some of my most recent <Link className="border-b-2 pb-1 border-teal-500 text-white" to="/projects">projects</Link>.
         </p>
+        <div>
+          <h2 className="text-xl text-white mt-14">Contact me</h2>
+          <p className="mt-2">Do you have a project idea you’d like me to jump on, questions you’d like me to answer, looking to make a new connection, or do you want to hire me?
+          </p>
+        </div>
         <Form />
       </div>
       <div className="lg:hidden flex justify-between w-3/4 mx-auto my-16">

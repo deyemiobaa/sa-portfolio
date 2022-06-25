@@ -74,22 +74,22 @@ export const skills = [
   {
     id: uuidv4(),
     icon: <BiCodeAlt />,
-    text: "A react developer with a keen focus on building accessible and performant apps.",
+    text: "Building accessible and performant apps.",
   },
   {
     id: uuidv4(),
     icon: <BsBuilding />,
-    text: "A fast learner with a passion for learning new technologies and building things that solve problems.",
+    text: "Learning fast, building things that solve problems.",
   },
   {
     id: uuidv4(),
     icon: <BsStars />,
-    text: "A developer with an eye for detail, design, and polish.",
+    text: "Detailed designs and polish websites.",
   },
   {
     id: uuidv4(),
     icon: <MdOutlineVerifiedUser />,
-    text: "A dedicated and hardworking individual with a strong sense of responsibility.",
+    text: "Responsibility and accountability.",
   }
 ]
 
