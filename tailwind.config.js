@@ -5,14 +5,13 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        "big": "25rem",
+        "big": "20rem",
       },
       zIndex: {
         "neg": -1,
       },
       fontFamily: {
-        "elsie": 'Elsie, serif',
-        "lato": 'Lato, serif',
+        "lato": ['PT Sans', 'serif']
       },
       animation: {
         'spin-once': 'spin 1s linear',
