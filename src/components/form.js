@@ -39,7 +39,7 @@ export default function Form() {
         </label>
         <button type="submit" disabled={state.submitting} className="border px-8 mt-6 py-1 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Send message</button>
       </form>
-      <div className="text-big absolute z-1 -right-10 bottom-64 opacity-[0.15] text-[#616971] font-black font-elsie hidden lg:block">
+      <div className="text-big absolute z-1 -right-10 bottom-64 opacity-[0.15] text-[#616971] font-black font-lato hidden lg:block">
         @
       </div>
     </div>
