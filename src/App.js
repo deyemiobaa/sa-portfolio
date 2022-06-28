@@ -9,6 +9,7 @@ import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import About from "./pages/about";
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function App() {
   const location = useLocation()
@@ -23,12 +24,15 @@ export default function App() {
       duration: 1000,
       easing: 'ease-in-out',
       offset: 100,
-      delay: 500,
+      delay: 100,
+      mirror: true,
+      anchorPlacement: 'top-bottom',
+      once: false
     });
   }, [])
 
   return (
-    <div className="w-full min-h-screen bg-[#08070b] relative grid font-lato text-[#e4f0fa8c] text-base md:text-lg">
+    <div className="w-full min-h-screen bg-[#08070b] relative grid font-lato text-[#d4d4d4] text-base md:text-lg">
       <PageNav />
       <MobileNav />
       <Routes>

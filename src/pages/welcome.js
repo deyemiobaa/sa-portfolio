@@ -14,7 +14,7 @@ export default function Welcome() {
           <p>I'm a Front-end Developer, focused on building accessible and performant apps<span className="pl-2 text-2xl text-white">👨🏽‍💻</span>.</p>
           <Link to="/contact" className="border px-8 mt-6 py-1 border-teal-500 bg-transparent hover:bg-teal-500 hover:border ease-in-out duration-700 transition-colors text-teal-500 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-right">
           <h2 className="text-xl text-white">Core focus:</h2>
           <ul className="md:w-3/4 my-2">
             {skills.map(skill =>
@@ -25,7 +25,7 @@ export default function Welcome() {
             )}
           </ul>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-left">
           <div className="mb-4 mt-10">
             <p className="text-white">Technologies, tools, &amp; methods I use regularly:</p>
             <ul className="grid grid-cols-2 gap-x-4 md:w-3/5 text-[15px] list-[square] ml-4 mb-8 mt-6">
