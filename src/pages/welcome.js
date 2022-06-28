@@ -1,6 +1,6 @@
 import React from "react";
-import SocialIcons from "../components/icons";
 import Form from "../components/form";
+import MobileSocialNav from "../components/mobile-social-nav";
 import { skills, techSkills } from "../assets/data/data";
 import { Link } from "react-router-dom";
 
@@ -45,9 +45,7 @@ export default function Welcome() {
         </div>
         <Form />
       </div>
-      <div className="lg:hidden flex justify-between w-3/4 mx-auto my-16">
-        <SocialIcons />
-      </div>
+      <MobileSocialNav />
     </div>
   );
 }
