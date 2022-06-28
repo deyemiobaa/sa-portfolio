@@ -1,6 +1,5 @@
 import React from "react";
 import Form from "../components/form";
-import MobileSocialNav from "../components/mobile-social-nav";
 import { skills, techSkills } from "../assets/data/data";
 import { Link } from "react-router-dom";
 
@@ -25,7 +24,7 @@ export default function Welcome() {
             )}
           </ul>
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="fade-right">
           <div className="mb-4 mt-10">
             <p className="text-white">Technologies, tools, &amp; methods I use regularly:</p>
             <ul className="grid grid-cols-2 gap-x-4 md:w-3/5 text-[15px] list-[square] ml-4 mb-8 mt-6">
@@ -45,7 +44,6 @@ export default function Welcome() {
         </div>
         <Form />
       </div>
-      <MobileSocialNav />
     </div>
   );
 }

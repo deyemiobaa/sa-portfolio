@@ -1,6 +1,5 @@
 import React from "react";
 import Form from "../components/form";
-import MobileSocialNav from "../components/mobile-social-nav";
 
 export default function Contact() {
   return (
@@ -18,7 +17,6 @@ export default function Contact() {
         <p className="">You can reach out to me via my social links, or send me a message. I'd love to hear from you.</p>
         <Form />
       </div>
-      <MobileSocialNav />
     </div>
   );
 }

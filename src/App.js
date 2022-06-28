@@ -7,6 +7,7 @@ import MobileNav from "./components/mobile-nav/nav";
 import Welcome from "./pages/welcome";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
+import MobileSocialNav from "./components/mobile-social-nav";
 import About from "./pages/about";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,6 +43,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <SocialNav />
+      <MobileSocialNav />
     </div>
   );
 }
