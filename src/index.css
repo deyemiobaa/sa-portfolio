@@ -1,10 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *::-webkit-scrollbar {
   width: 0 !important;
@@ -14,4 +14,9 @@
   background-color: rgb(248, 250, 252, 0.05);
   color: #14b8a6;
   border-right: 2px solid #14b8a6;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
 }
