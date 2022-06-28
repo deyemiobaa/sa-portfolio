@@ -1,6 +1,8 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -17,7 +19,7 @@ module.exports = {
         'spin-once': 'spin 1s linear',
       },
     },
-    
+
   },
   plugins: [],
 }

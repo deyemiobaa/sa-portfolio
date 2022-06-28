@@ -1,6 +1,6 @@
 import React from "react";
-import SocialIcons from "../components/icons";
 import Form from "../components/form";
+import MobileSocialNav from "../components/mobile-social-nav";
 
 export default function Contact() {
   return (
@@ -18,9 +18,7 @@ export default function Contact() {
         <p className="">You can reach out to me via my social links, or send me a message. I'd love to hear from you.</p>
         <Form />
       </div>
-      <div className="lg:hidden flex justify-between w-3/4 mx-auto my-16">
-        <SocialIcons />
-      </div>
+      <MobileSocialNav />
     </div>
   );
 }

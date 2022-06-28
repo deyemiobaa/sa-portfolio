@@ -7,7 +7,7 @@ export default function Form() {
     return <p className="mt-10 font-bold">Thanks for your message! I'll get back to you within 24 hours.</p>;
   }
   return (
-    <div className="w-full my-24 lg:my-0 lg:h-screen flex flex-col justify-center relative">
+    <div className="w-full my-24 lg:my-0 lg:h-screen flex flex-col justify-center relative" data-aos="slide-up">
       <p className="mb-6 text-white">Send me a message and I'll get back to you within 24 hours</p>
       <form onSubmit={handleSubmit} className="md:w-3/5">
         <label className="block ">

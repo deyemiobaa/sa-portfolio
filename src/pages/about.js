@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIcons from "../components/icons";
+import MobileSocialNav from "../components/mobile-social-nav";
 import myphoto from '../assets/images/potr.jpg';
 import gym from '../assets/images/gym.jpg';
 import bball from '../assets/images/bball.jpg';
@@ -32,9 +32,7 @@ export default function About() {
           <img src={myphoto} alt="Headshot" className="w-36 h-auto rounded-full md:rounded-2xl md:w-auto" />
         </div>
       </div>
-      <div className="lg:hidden flex justify-between w-3/4 self-center mt-20">
-        <SocialIcons />
-      </div>
+      <MobileSocialNav />
     </div>
   );
 }
