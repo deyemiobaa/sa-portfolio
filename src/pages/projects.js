@@ -24,7 +24,7 @@ export default function Projects() {
           <p className=""><span className="button border-b-2 pb-1 border-teal-500 text-white cursor-pointer sticky z-[11]">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
           </p>
         </div>
-        <div id="projects-section" className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center text-white">
+        <div id="projects-section" className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center text-white mb-20 lg:mb-0">
           {projects.map(project =>
             <Project key={project.id} title={project.title} description={project.description} technologies={project.technologies} link={project.url} image={project.image} />
           )}

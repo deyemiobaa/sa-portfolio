@@ -22,10 +22,9 @@ export default function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 750,
       easing: 'ease-in-out',
       offset: 100,
-      delay: 100,
       mirror: true,
       anchorPlacement: 'top-bottom',
       once: false

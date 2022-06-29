@@ -23,7 +23,7 @@ export default function About() {
             After a few years, I've had the chance to build unique projects with incredible developers from countries across Africa and Europe. I'm currently concentrating on React web development and would love to work with Edu-tech or customer-focused companies.<br />
 
             When I'm not behind a computer screen, you can find me at the gym or playing basketball.
-            <div className="grid grid-cols-2 gap-6 justify-items-center pt-6 mb-6">
+            <div className="grid grid-cols-2 gap-6 justify-items-center pt-6 mb-10 lg:mb-6">
               <img src={gym} alt="gym" className="rounded-lg  w-full" />
               <img src={bball} alt="basketball" className="rounded-lg  w-full" />
             </div>

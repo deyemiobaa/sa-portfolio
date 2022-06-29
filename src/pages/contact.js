@@ -14,7 +14,7 @@ export default function Contact() {
         </figure>
         <p className="mt-8 ">Do you have a project idea you’d like me to jump on, questions you’d like me to answer, looking to make a new connection, or do you want to hire me?
         </p>
-        <p className="">You can reach out to me via my social links, or send me a message. I'd love to hear from you.</p>
+        <p className="">You can reach out to me via my social links, or send me a message using the form below. I'd love to hear from you.</p>
         <Form />
       </div>
     </div>
