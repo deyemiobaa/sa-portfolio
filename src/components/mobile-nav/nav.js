@@ -12,11 +12,11 @@ export default function MobileNav() {
   };
   return (
     <div
-      className="mobile-nav fixed inset-0 z-20 w-3/4 md:w-3/5 lg:hidden transition-all ease-in-out duration-1000"
+      className="fixed inset-0 z-20 w-3/4 transition-all duration-1000 ease-in-out mobile-nav md:w-3/5 lg:hidden"
       style={isOpen ? undefined : { "width": "0" }}
     >
-      {!isOpen && <Toggle style={{ "backgroundColor": "#08070b" }} toggle={() => toggleNav()} element={<CgMenu className="text-2xl text-teal-500 font-bold" />} />}
-      {isOpen && <Toggle toggle={() => toggleNav()} element={<CgClose className="text-2xl text-neutral-900 font-bold" />} />}
+      {!isOpen && <Toggle style={{ "backgroundColor": "#08070b" }} toggle={() => toggleNav()} element={<CgMenu className="text-2xl font-bold text-teal-500" />} />}
+      {isOpen && <Toggle toggle={() => toggleNav()} element={<CgClose className="text-2xl font-bold text-neutral-900" />} />}
       <Navigation
         handleClickProp={() => toggleNav()}
         style={isOpen ? { "width": "100%", "opacity": "1" } : { "width": "0%", "opacity": "0" }}
