@@ -347,6 +347,10 @@ img, video {
   margin-top: 2rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -361,14 +365,6 @@ img, video {
 
 .mb-2 {
   margin-bottom: .5rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {

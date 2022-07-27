@@ -11,6 +11,23 @@ import redux from '../images/redux.png';
 export const projects = [
   {
     id: uuidv4(),
+    title: "CC-global-summit",
+    description: "A Fashion Summit website provides information about the event and speakers.",
+    image: "https://user-images.githubusercontent.com/55185309/181367968-0a773a01-357f-4949-9c94-281b67481f3b.png",
+    url: "https://deyemiobaa.github.io/CC-global-summit/",
+    technologies: [
+      {
+        name: "JavaScript",
+        image: javascript
+      },
+      {
+        name: "CSS",
+        image: css
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
     title: "Top Stocks App",
     description: "A web application that provides you with the data about the most active trading stocks for the day.",
     image: "https://user-images.githubusercontent.com/55185309/169798193-a19f93bf-b494-4125-a7eb-0e3ad7836491.png",
