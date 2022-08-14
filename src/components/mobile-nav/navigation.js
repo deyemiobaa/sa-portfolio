@@ -3,7 +3,7 @@ import MenuItem from "./menu-item";
 
 
 export default function Navigation({ handleClickProp, style, itemStyle }) {
-  const links = ['Home', 'About', 'Projects', 'Blog', 'Contact'];
+  const links = ['Home', 'About', 'Projects', 'Contact'];
   return (
     <div
       className="mobile-nav__items flex items-center justify-center bg-slate-100 h-full transition-all ease-in-out duration-[600ms]"
