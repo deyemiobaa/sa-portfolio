@@ -4,15 +4,14 @@ import { BsStars, BsBuilding } from 'react-icons/bs';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
 import css from '../images/css.png';
 import javascript from '../images/js.png';
-import react from '../images/react.png';
 import tailwind from '../images/tailwind-css.png';
-import redux from '../images/redux.png';
+import ror from '../images/rubyonrails.png';
 
 export const projects = [
   {
     id: uuidv4(),
     title: "CC-global-summit",
-    description: "A Fashion Summit website provides information about the event and speakers.",
+    description: "A Fashion Summit website that provides information about the event and speakers.",
     image: "https://user-images.githubusercontent.com/55185309/181367968-0a773a01-357f-4949-9c94-281b67481f3b.png",
     url: "https://deyemiobaa.github.io/CC-global-summit/",
     technologies: [
@@ -28,63 +27,21 @@ export const projects = [
   },
   {
     id: uuidv4(),
-    title: "Top Stocks App",
-    description: "A web application that provides you with the data about the most active trading stocks for the day.",
-    image: "https://user-images.githubusercontent.com/55185309/169798193-a19f93bf-b494-4125-a7eb-0e3ad7836491.png",
-    url: "https://top-stocks.vercel.app/",
+    title: "Budgit",
+    description: "A simple web application for tracking your budget.",
+    image: "https://user-images.githubusercontent.com/55185309/184540699-4353c054-c3e5-49e9-9b55-ece9ea3f6721.png",
+    url: "https://my-budgit-app.herokuapp.com/",
     technologies: [
       {
-        name: "React",
-        image: react
+        name: "Ruby on Rails",
+        image: ror
       },
       {
-        name: "Redux",
-        image: redux
-      },
-      {
-        name: "TailwindCSS",
+        name: "Tailwind CSS",
         image: tailwind
       }
     ]
-  },
-  {
-    id: uuidv4(),
-    title: "Bookstore CMS",
-    description: "A content management system for storing books. Books are managed by an external REST API.",
-    image: "https://user-images.githubusercontent.com/55185309/171854400-26e3a455-c961-434d-b921-e7036c489b39.png",
-    url: "https://jovial-bonbon-ff2eb8.netlify.app/",
-    technologies: [
-      {
-        name: "React",
-        image: react
-      },
-      {
-        name: "Redux",
-        image: redux
-      },
-      {
-        name: "CSS",
-        image: css
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    title: "ShowBox Movies",
-    description: "A movies recommendation app. Discover new movies to watch on ShowBox Movies app.",
-    image: "https://raw.githubusercontent.com/deyemiobaa/Movie-Database/dev/src/app-sc.png",
-    url: "https://deyemiobaa.github.io/Movie-Database/",
-    technologies: [
-      {
-        name: "JavaScript",
-        image: javascript
-      },
-      {
-        name: "CSS",
-        image: css
-      },
-    ]
-  },
+  }
 ]
 
 export const skills = [
