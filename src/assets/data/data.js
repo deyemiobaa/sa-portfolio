@@ -74,6 +74,10 @@ export const techSkills = [
   },
   {
     id: uuidv4(),
+    skill: 'Ruby on Rails',
+  },
+  {
+    id: uuidv4(),
     skill: 'React.js/Next.js',
   },
   {
@@ -86,15 +90,11 @@ export const techSkills = [
   },
   {
     id: uuidv4(),
-    skill: 'Jest/Mocha',
+    skill: 'Jest/RSpec',
   },
   {
     id: uuidv4(),
-    skill: 'MySQL/PostgreSQL',
-  },
-  {
-    id: uuidv4(),
-    skill: 'TDD',
+    skill: 'PostgreSQL',
   },
   {
     id: uuidv4(),
@@ -103,14 +103,6 @@ export const techSkills = [
   {
     id: uuidv4(),
     skill: 'Git/GitHub',
-  },
-  {
-    id: uuidv4(),
-    skill: 'Netlify/Heroku/Vercel',
-  },
-  {
-    id: uuidv4(),
-    skill: 'Dev Tools',
   },
   {
     id: uuidv4(),
