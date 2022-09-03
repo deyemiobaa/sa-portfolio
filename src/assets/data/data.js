@@ -6,8 +6,35 @@ import css from '../images/css.png';
 import javascript from '../images/js.png';
 import tailwind from '../images/tailwind-css.png';
 import ror from '../images/rubyonrails.png';
+import react from '../images/react.png';
+import redux from '../images/redux.png';
 
 export const projects = [
+  {
+    id: uuidv4(),
+    title: "MediBook",
+    description: "A web app that allows users to search for doctors and book appointments with them.",
+    image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
+    url: "https://medibook-ui.vercel.app/",
+    technologies: [
+      {
+        name: "Ruby on Rails",
+        image: ror
+      },
+      {
+        name: "React",
+        image: react
+      },
+      {
+        name: "Redux",
+        image: redux
+      },
+      {
+        name: "Tailwind CSS",
+        image: tailwind
+      }
+    ]
+  },
   {
     id: uuidv4(),
     title: "CC-global-summit",
