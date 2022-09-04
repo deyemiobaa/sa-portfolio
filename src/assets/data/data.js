@@ -13,7 +13,7 @@ export const projects = [
   {
     id: uuidv4(),
     title: "MediBook",
-    description: "A web app that allows users to search for doctors and book appointments with them.",
+    description: "A web app that allows users to book and track appointments with doctors.",
     image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
     url: "https://medibook-ui.vercel.app/",
     technologies: [
