@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Toggle({ handleToggle, toggle }) {
   return (
-    <div
+    <button
+      type="button"
+      title="hamburger button"
       className="absolute top-0 left-0 z-20 flex flex-col justify-between w-5 h-4 mt-5 ml-5 backdrop-blur"
       onClick={handleToggle}>
       <span
@@ -14,6 +16,6 @@ export default function Toggle({ handleToggle, toggle }) {
       <span
         className={`w-full h-0.5 transition-transform duration-500 origin-[0%_150%] rounded-xl ${toggle ? "bg-neutral-900" : "bg-teal-500"}`}
         style={toggle ? { transform: "rotate(-45deg)" } : {}}></span>
-    </div>
+    </button>
   )
 }
