@@ -11,7 +11,7 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
         aria-label="Send me an email"
       >
-        <FiMail className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+        <FiMail className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a>
       <a
         href="https://github.com/deyemiobaa?tab=repositories"
@@ -19,7 +19,7 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
         aria-label="My Github profile"
       >
-        <FiGithub className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+        <FiGithub className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a>
       <a
         href="https://www.linkedin.com/in/sodiqa/"
@@ -27,7 +27,7 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
         aria-label="My Linkedin profile"
       >
-        <FiLinkedin className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+        <FiLinkedin className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a>
       <a
         href="https://twitter.com/deyemiobaa"
@@ -35,7 +35,7 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
         aria-label="My Twitter profile"
       >
-        <FiTwitter className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+        <FiTwitter className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a>
       {/* <a
         href="https://lichess.org/@/sodiq90"
@@ -43,7 +43,7 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
         aria-label="My Lichess profile"
       >
-        <SiLichess className="text-teal-500 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+        <SiLichess className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a> */}
     </>
   )

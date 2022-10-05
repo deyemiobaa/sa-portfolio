@@ -19,9 +19,9 @@ export default function Projects() {
           <p className="hidden font-bold text-white">
             Talk is cheap, I'd rather show you the code.
           </p>
-          <p className="mt-8 ">Building projects is something I really enjoy doing. Apart from the fresh experiences I gain with each project, the thrill of seeing a project through from beginning to end and having it work as intended makes the process/hurdles interesting.
+          <p className="mt-8 ">Building projects is something I enjoy doing. Apart from the fresh experiences I gain with each project, the thrill of seeing a project through from beginning to end and having it work as intended makes the process/hurdles interesting.
           </p>
-          <p className=""><span className="button border-b-2 pb-1 border-teal-500 text-white cursor-pointer sticky z-[11]">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
+          <p className=""><span className="button border-b-2 pb-1 border-teal-300 text-white cursor-pointer sticky z-[11]">Below</span> are some of my most recent works. Some are finished, in progress, personal, and open-sourced.
           </p>
         </div>
         <div id="projects-section" className="grid w-full grid-cols-1 gap-8 text-center text-white md:grid-cols-2 lg:mb-0">
