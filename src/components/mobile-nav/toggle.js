@@ -4,7 +4,7 @@ export default function Toggle({ handleToggle, toggle }) {
   return (
     <button
       type="button"
-      title="hamburger button"
+      aria-label="hamburger button"
       className="absolute top-0 left-0 z-20 flex flex-col justify-between w-5 h-4 mt-5 ml-5 backdrop-blur"
       onClick={handleToggle}>
       <span
