@@ -3,7 +3,7 @@ import myphoto from '../assets/images/potr.jpg';
 
 export default function About() {
   return (
-    <main className="relative flex flex-col items-center px-6 pb-10 leading-7 tracking-wide lg:leading-10 mt-28 md:mt-36 mb-20">
+    <main className="relative flex flex-col items-center px-6 pb-10 mb-20 leading-7 lg:leading-10 mt-28 md:mt-36">
       <div className="static z-10 mx-auto w-4/4 md:w-3/4">
         <h1 className="mb-10 text-4xl font-bold text-transparent md:text-5xl bg-clip-text bg-gradient-to-r from-teal-300 to-amber-500">Genesis . Journey</h1>
         <div className="flex flex-col-reverse gap-12 mb-10 md:grid md:grid-cols-4 lg:mb-6">

@@ -12,7 +12,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <main className="px-6 mb-20 leading-7 tracking-wide lg:leading-10 mt-28 md:mt-36">
+    <main className="px-6 mb-20 leading-7 lg:leading-10 mt-28 md:mt-36">
       <div className="static z-10 mx-auto mb-10 w-4/4 md:w-3/4">
         <div className="relative mb-20">
           <h1 className="mb-10 text-4xl font-bold text-transparent md:text-5xl bg-clip-text bg-gradient-to-r from-emerald-500 to-amber-500">Projects . Open-Source</h1>
