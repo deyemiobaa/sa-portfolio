@@ -30,7 +30,7 @@ export default function PageNav() {
     }
   ]
   return (
-    <div className="fixed top-0 bottom-0 left-0 z-20 flex-col justify-center hidden h-screen gap-6 px-4 text-lg page-nav lg:flex w-max text-slate-50">
+    <aside className="fixed top-0 bottom-0 left-0 z-20 flex-col justify-center hidden h-screen gap-6 px-4 text-lg page-nav lg:flex w-max text-slate-50">
       {elements.map((element, index) =>
         <NavLink to={element.path}
           className="page-nav__item flex flex-col justify-center items-center rounded-full p-4 hover:bg-black/25 hover:scale-[1.1] hover:transition-transform hover:ease-in-out hover:duration-[300ms]"
@@ -40,7 +40,7 @@ export default function PageNav() {
           {element.icon}
         </NavLink>
       )}
-    </div>
+    </aside>
   );
 }
 
