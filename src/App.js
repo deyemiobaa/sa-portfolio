@@ -19,19 +19,18 @@ export default function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 750,
+      duration: 650,
       easing: 'ease-in-out',
       offset: 100,
-      mirror: true,
       anchorPlacement: 'top-bottom',
       once: false
     });
   }, [])
 
   return (
-    <div className="w-full min-h-screen bg-[#08070b] relative grid font-lato text-[#d4d4d4] text-base md:text-lg">
+    <div className="w-full min-h-screen bg-[#08070b] relative grid font-league text-[#d4d4d4] text-xl font-light">
       <MobileNav />
-      <main className="px-24 leading-7 tracking-wide lg:leading-10">
+      <main className="px-6 leading-7 tracking-wider md:px-24 lg:leading-10">
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/contact" element={<Contact />} />

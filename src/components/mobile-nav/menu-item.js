@@ -1,18 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
-
-export default function MenuItem({ link, handleClickProp }) {
+export default function MenuItem({ pathName, path, handleClickProp }) {
 
   return (
-    <NavLink
-      to={`${link === 'Home' ? '/' : link.toLowerCase()}`}
-      className="mobile-nav__item text-neutral-900 font-bold py-2 mb-2 tracking-wide text-lg"
-      key={link}
+    <a
+      href={path}
+      className="py-2 mb-2 text-lg font-bold mobile-nav__item text-neutral-900"
       onClick={handleClickProp}
       style={{ color: 'black', border: 'none' }}
     >
-      {link}
-    </NavLink>
+      {pathName}
+    </a>
   )
 }

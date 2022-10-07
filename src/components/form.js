@@ -7,7 +7,7 @@ export default function Form() {
     return <p className="mt-10 font-bold">Thanks for your message! I'll get back to you within 24 hours.</p>;
   }
   return (
-    <div className="relative flex flex-col justify-center w-full my-16 lg:my-0 lg:h-screen" data-aos="zoom-in-up">
+    <div className="relative flex flex-col justify-center w-full h-screen my-16 lg:my-0" data-aos="zoom-in-up">
       <p className="mb-6 text-white">Send me a message and I'll get back to you within 24 hours</p>
       <form onSubmit={handleSubmit} className="md:w-3/5">
         <label className="block ">
@@ -39,7 +39,7 @@ export default function Form() {
         </label>
         <button type="submit" disabled={state.submitting} className="border px-8 mt-6 py-1 border-teal-300 bg-transparent hover:bg-teal-300 hover:border ease-in-out duration-700 transition-colors text-teal-300 hover:text-black font-bold w-max sticky z-[11]">Send message</button>
       </form>
-      <div className="text-big absolute z-1 -right-10 bottom-64 opacity-[0.15] text-[#616971] font-black font-lato hidden lg:block">
+      <div className="text-big absolute z-1 -right-10 bottom-64 opacity-[0.15] text-[#616971] hidden lg:block font-spectral">
         @
       </div>
     </div>
