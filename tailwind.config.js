@@ -7,13 +7,14 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        "big": "20rem",
+        "big": "25rem",
       },
       zIndex: {
         "neg": -1,
       },
       fontFamily: {
-        "lato": ['PT Sans', 'serif']
+        "spectral": ['Spectral', 'serif'],
+        "league": ['League Spartan', 'sans-serif'],
       },
       animation: {
         'spin-once': 'spin 1s linear',
