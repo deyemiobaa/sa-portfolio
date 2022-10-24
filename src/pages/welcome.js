@@ -11,7 +11,7 @@ export default function Welcome() {
       
       <section id="intro" className="flex flex-col justify-center" aria-label="intro">
         <h1 className="flex flex-col justify-center h-screen max-w-5xl mx-auto mb-4 text-4xl leading-[50px] tracking-tight text-center text-white font-extralight md:text-8xl font-spectral">
-          <span className="font-light">Full Stack <span className="text-teal-300">Developer.</span></span>
+          <span className="font-light">Full Stack <span className="text-teal-300">Engineer.</span></span>
           <span>Building <span className="italic">interactive</span> <br/>user interfaces.</span>
         </h1>
         <div className="gap-10 my-10 md:flex">
