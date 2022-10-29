@@ -45,5 +45,5 @@ export default function SocialIcons() {
         <SiLichess className="text-teal-300 text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
       </a> */}
     </>
-  )
+  );
 }
