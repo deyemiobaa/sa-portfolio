@@ -1,10 +1,9 @@
-import React from "react";
 import Form from "../components/form";
 
 export default function Contact() {
   return (
     <main className="relative flex flex-col items-center px-6 mb-20 leading-7 lg:leading-10 mt-28 md:mt-36">
-      <div className="static z-10 mx-auto w-4/4 md:w-3/4">
+      <div className="static z-10 mx-auto w-4/4 md:w-5/6">
         <h1 className="mb-10 text-4xl font-bold text-transparent md:text-5xl bg-clip-text bg-gradient-to-r from-green-500 to-amber-500">Collaborate . Connect</h1>
         <figure className="opacity-[.9] text-white">
           <blockquote cite="https://deyemiobaa.vercel.app">

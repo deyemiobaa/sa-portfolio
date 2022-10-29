@@ -1,6 +1,5 @@
 import React from "react";
 import { FiGithub, FiTwitter, FiMail, FiLinkedin } from "react-icons/fi";
-// import { SiLichess } from "react-icons/si";
 
 export default function SocialIcons() {
   return (

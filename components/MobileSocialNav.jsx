@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIcons from "../components/icons";
+import SocialIcons from "./SocialIcons";
 
 export default function MobileSocialNav() {
   return (

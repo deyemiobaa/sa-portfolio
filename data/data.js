@@ -2,12 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsStars, BsBuilding } from 'react-icons/bs';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
-import css from '../images/css.png';
-import javascript from '../images/js.png';
-import tailwind from '../images/tailwind-css.png';
-import ror from '../images/rubyonrails.png';
-import react from '../images/react.png';
-import redux from '../images/redux.png';
+
 
 export const projects = [
   {
@@ -19,19 +14,19 @@ export const projects = [
     technologies: [
       {
         name: "Ruby on Rails",
-        image: ror
+        image: "ror"
       },
       {
         name: "React",
-        image: react
+        image: "react"
       },
       {
         name: "Redux",
-        image: redux
+        image: "redux"
       },
       {
         name: "Tailwind CSS",
-        image: tailwind
+        image: "tailwind"
       }
     ]
   },
@@ -44,11 +39,11 @@ export const projects = [
     technologies: [
       {
         name: "JavaScript",
-        image: javascript
+        image: "javascript"
       },
       {
         name: "CSS",
-        image: css
+        image: "css"
       }
     ]
   },
@@ -61,11 +56,11 @@ export const projects = [
     technologies: [
       {
         name: "Ruby on Rails",
-        image: ror
+        image: "ror"
       },
       {
         name: "Tailwind CSS",
-        image: tailwind
+        image: "tailwind"
       }
     ]
   }
