@@ -75,7 +75,7 @@ function Navigation({ handleClickProp, style, itemStyle }) {
   const links = [
     ["Home", "/"],
     ["About", "/#skills"],
-    ["Projects", "/#what-im-working-on"],
+    // ["Projects", "/#what-im-working-on"],
     ["Contact", "/contact"],
   ];
   return (

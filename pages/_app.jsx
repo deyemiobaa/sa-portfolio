@@ -43,7 +43,7 @@ export default MyApp;
 
 function useTitle(location) {
   if (location === "/") {
-    return "Sodiq | Software Developer";
+    return "Sodiq | Software Engineer";
   } else {
     return `Sodiq | ${location[1].toUpperCase()}${location.slice(2)}`;
   }

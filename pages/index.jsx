@@ -71,7 +71,7 @@ export default function Home() {
         </ul>
       </section>
 
-      <section
+      {/* <section
         id="what-im-working-on"
         data-aos="fade-right"
         aria-label="My projects"
@@ -100,7 +100,7 @@ export default function Home() {
             />
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section aria-label="contact me" className="mt-10">
         <h2 className="text-4xl font-light text-white md:text-5xl font-spectral">
@@ -108,7 +108,7 @@ export default function Home() {
         </h2>
         <p className="py-10 md:w-2/3">
           Feel free to reach out if you're looking for a developer, have a
-          project idea you’d like me to work on, have a question, or looking to
+          project idea you'd like me to work on, have a question, or looking to
           make a new connection.
         </p>
         <a
