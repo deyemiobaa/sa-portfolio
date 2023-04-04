@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Form from "../components/Form";
-import Project from "../components/Project";
-import { projects, techSkills } from "../data/data";
+import { techSkills } from "../data/data";
 
 export default function Home() {
   return (
@@ -12,8 +11,8 @@ export default function Home() {
             Full Stack <span className="text-teal-300">Engineer.</span>
           </span>
           <span>
-            Building <span className="italic">interactive</span> <br />
-            user interfaces.
+            Building <span className="italic">solutions</span> <br />
+            for the web.
           </span>
         </h1>
         <div className="gap-10 my-10 md:flex">
